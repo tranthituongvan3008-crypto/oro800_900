@@ -7,7 +7,7 @@ const { calculateFee, GasPrice } = require('@cosmjs/stargate');
 const http = require('http');
 
 const PORT = process.env.PORT || 3000;
-const APP_URL = ''; // 请在此处填写您的 Render 应用 URL（如果需要 keep-alive）
+const APP_URL = 'https://oro800-900.onrender.com'; // 请在此处填写您的 Render 应用 URL（如果需要 keep-alive）
 
 // Ping mỗi 10 phút để không sleep (如果 APP_URL 为空则不执行)
 setInterval(async () => {
